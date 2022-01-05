@@ -130,11 +130,11 @@ $(function() {
     let interval = 'data-bs-interval="'+intervalMilliseconds+'"';
 
     html += '<div class="carousel-item active" '+ interval +'>';
-    html +=  '<div style="background-image: url(foto/' + i + '.jpg)" class="d-block w-100" alt="..."></div>';
+    html +=  '<div style="background-image: url(index/foto/' + i + '.jpg)" class="d-block w-100" alt="..."></div>';
     html +=  '</div>';
-    for(i=2; i<37; i++){
+    for(i=2; i<57; i++){
     	html += '<div class="carousel-item" '+ interval +'>';
-    	html +=  '<div style="background-image: url(foto/' + i + '.jpg)" class="d-block w-100" alt="..."></div>';
+    	html +=  '<div style="background-image: url(index/foto/' + i + '.jpg)" class="d-block w-100" alt="..."></div>';
     	html +=  '</div>';
     }
     container.innerHTML = html;
