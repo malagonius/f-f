@@ -146,6 +146,7 @@ $(function() {
         var audio = document.getElementById("audio");
         audio.play();
         $("nav")[0].classList.add("hide");
+	document.getElementById("countdown").innerHTML =  "5...";
         var timeleft = 4;
 		var downloadTimer = setInterval(function(){
 		  if(timeleft <= 0){
