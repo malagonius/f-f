@@ -127,8 +127,9 @@ $(function() {
     var html = "";
     let i = 1;
     let intervalMilliseconds = "3000"
-    let interval = 'data-bs-interval="'+intervalMilliseconds+'"';
-
+    //let interval = 'data-bs-interval="'+intervalMilliseconds+'"';
+    let interval = '';
+	
     html += '<div class="carousel-item active" '+ interval +'>';
     html +=  '<div style="background-image: url(index/foto/' + i + '.jpg)" class="d-block w-100" alt="..."></div>';
     html +=  '</div>';
@@ -138,6 +139,9 @@ $(function() {
     	html +=  '</div>';
     }
     container.innerHTML = html;
+    $('.carousel').carousel({
+      interval: 3200
+    })
 
 });
 </script>
