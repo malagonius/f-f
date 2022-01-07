@@ -141,7 +141,7 @@ $(function() {
     }
     container.innerHTML = html;
     $('.carousel').carousel({
-      interval: 5000
+      interval: 3200
     })
 
 });
