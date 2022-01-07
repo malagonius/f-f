@@ -128,7 +128,7 @@ $(function() {
     var html = "";
     let i = 1;
     let intervalMilliseconds = "3000"
-    //let interval = 'data-bs-interval="'+intervalMilliseconds+'"';
+    let interval = 'data-bs-interval="'+intervalMilliseconds+'"';
     let interval = '';
 	
     html += '<div class="carousel-item active" '+ interval +'>';
