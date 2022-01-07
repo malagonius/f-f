@@ -129,7 +129,6 @@ $(function() {
     let i = 1;
     let intervalMilliseconds = "3000"
     let interval = 'data-bs-interval="'+intervalMilliseconds+'"';
-    let interval = '';
 	
     html += '<div class="carousel-item active" '+ interval +'>';
     html +=  '<div style="background-image: url(index/foto/' + i + '.jpg)" class="d-block w-100" alt="..."></div>';
