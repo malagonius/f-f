@@ -147,6 +147,29 @@ $(function() {
 });
 </script>
 <script>
+	document.onkeydown = checkKey;
+	function checkKey(e) {
+
+	    e = e || window.event;
+
+	    if (e.keyCode == '38') {
+		// up arrow
+		console.log("kekw");
+	    }
+	    else if (e.keyCode == '40') {
+		// down arrow
+		console.log("scemo chi legge");
+	    }
+	    else if (e.keyCode == '37') {
+	       // left arrow
+	       $(".carousel").carousel("prev");
+	    }
+	    else if (e.keyCode == '39') {
+	       // right arrow
+	       $(".carousel").carousel("next");
+	    }
+
+}
       function play() {
         var audio = document.getElementById("audio");
         audio.play();
