@@ -126,7 +126,7 @@ $(function() {
     var container = $("#ff div")[0];
     var html = "";
     let i = 1;
-    let intervalMilliseconds = "5000"
+    let intervalMilliseconds = "3000"
     let interval = 'data-bs-interval="'+intervalMilliseconds+'"';
 
     html += '<div class="carousel-item active" '+ interval +'>';
