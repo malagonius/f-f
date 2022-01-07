@@ -182,6 +182,12 @@ $(function() {
 		    document.getElementById("countdown").innerHTML = "Finished";
 		     document.getElementById("countdown").classList.add("hide");
 		    $("#ff")[0].classList.remove("hide");
+			  const interval = setInterval(function() {
+				   // method to be executed;
+				  	$('.carousel').carousel('next');
+				 }, 3000);
+
+				clearInterval(interval); // thanks @Luca D'Amico
 		  } else {
 		    document.getElementById("countdown").innerHTML = timeleft + "...";
 		  }
